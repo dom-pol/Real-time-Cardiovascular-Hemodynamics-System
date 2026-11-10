@@ -1,5 +1,6 @@
 mod mini_projects;
-use mini_projects::fixed_size_ring_buffer::Queue;
+use mini_projects::queue::Queue;
+use mini_projects::fixed_size_ring_buffer::Ring_buffer;
 
 fn main() {
     let mut queue = Queue::new();
