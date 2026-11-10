@@ -1,7 +1,4 @@
 pub struct Ring_Buffer<T, const N: usize>
-//trait bound that tells rust that T must be able to create a default version of itself like[0,0,0]
-where
-    T: Default 
 {
     //1. Fixed-size array pre-filled with default values
     storage: [Option<T>; N],
