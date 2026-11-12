@@ -1,3 +1,5 @@
 # Real-time-Cardiovascular-Hemodynamics-System
-https://kr.pinterest.com/pin/299419075247415891/
+<p align="center">
+  <img src="./Heart_Beat_8-Bit.gif" width="100%" alt="Profile Banner">
+</p>
 A personal passion project combining Python, Rust and cardiovascular issues to produce a monitoring system for patients.
