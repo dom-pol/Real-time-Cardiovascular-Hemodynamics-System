@@ -1,7 +1,15 @@
 mod mini_projects;
 //use mini_projects::queue::Queue;
-use mini_projects::fixed_size_ring_buffer::Ring_Buffer;
+//use mini_projects::fixed_size_ring_buffer::Ring_Buffer;
+fn main() {
+    
+}
 
+
+// ==========================================
+// ARCHIVED: Project 1 (Fixed-Size Ring Buffer)
+// ==========================================
+#[allow(dead_code)]
 fn main() {
     let mut buffer: Ring_Buffer<i32, 5> = Ring_Buffer::new();
     buffer.push(10);
